@@ -29,6 +29,6 @@ public final class GlobHack
 
     public static String toPattern(@Nonnull final String input)
     {
-        return Globs.toUnixRegexPattern(Objects.requireNonNull(input));
+        return GlobsHack.toUnixRegexPattern(Objects.requireNonNull(input));
     }
 }
